@@ -1,0 +1,30 @@
+[
+    {
+        "nomcomplet": "Cheikh Ibra Mbengue",
+        "email": "cheikhibrambengue90@gmail.com",
+        "password": "123",
+        "id": "632833c3abc08",
+        "role": "ROLE_Admin"
+    },
+    {
+        "nomcomplet": "Mansour Niang",
+        "email": "mansouryathi@gmail.com",
+        "password": "passer12",
+        "id": "6328352e4437a",
+        "role": "ROLE_Admin"
+    },
+    {
+        "nomcomplet": "Passer",
+        "email": "passe@gmail.com",
+        "password": "123",
+        "id": "63288061aac28",
+        "role": "ROLE_attach\u00e9"
+    },
+    {
+        "nomcomplet": "Cheikh Ibra Mbengue",
+        "email": "cheikhibrambengue90@gmail.com",
+        "password": "Mbectemi@2022",
+        "id": "63342fa637f7a",
+        "role": "ROLE_attach\u00e9"
+    }
+]
