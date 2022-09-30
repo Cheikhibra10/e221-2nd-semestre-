@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(218, 216, 236);
+}
+header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:72px;
+    background-color: blue;
+}
+header img{
+    height:90px;
+    width: 95px;
+}
+header .text{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    width: 500px;
+    animation: .8s horizontal-shaking infinite alternate;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+    height: 89vh;
+    background-color: blue;
+}
+article .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 60vh;
+    height:25vh;
+    margin-top: -7px;
+    
+}
+article img{
+    width: 23vh;
+    height:22vh;
+    cursor: pointer;
+}
+article .nav{
+    color: white;
+    width: 38vh;
+    height: 5vh;
+}
+article .nav a{
+    color: #ffffff;
+}
+article a button{
+    height: 5vh;
+    width: 25vh;
+    border-radius: 10px;
+    border: none;
+    color: blue;
+    font-size: 20px;
+}
+article .nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+article a button:hover{
+    background-color: red;
+    color: #ffffff;
+}
+.dropbtn {
+    background-color: blue;
+   width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: 20vh;
+    padding: 5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: blue;
+    font-size: 16px;
+    margin-top:-5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: white;color: blue;}
+  
+  .dropdown:hover .dropdown-content {display: block;background-color: white;}
+  .dropbtn:hover{color: blue;}
+  i.tbord{
+    color: red;
+    font-size: 4vh;
+  }
+  i.ic{
+    color: red;
+    font-size: 3vh;
+  }
